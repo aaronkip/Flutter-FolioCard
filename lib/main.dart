@@ -54,24 +54,19 @@ class MyApp extends StatelessWidget {
                 margin: EdgeInsets.symmetric(vertical:10, horizontal:25),
                 child: Padding(
                   padding: EdgeInsets.all(15.0),
-                  child: Row(
-                  children: <Widget>[
-                    Icon(
+                  child: ListTile(
+                    leading: Icon(
                       Icons.email,
                       color: Colors.teal,
                     ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
+                    title: Text(
                       'aaronrono42@gmail.com',
                       style: TextStyle(
                         color: Colors.teal[900],
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                  ],
-                ),
+                  ),
                 ),
               ),
             ],
