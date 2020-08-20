@@ -35,22 +35,17 @@ class MyApp extends StatelessWidget {
                 margin: EdgeInsets.symmetric(vertical:10.0, horizontal:25),
                 child: Padding(
                   padding: EdgeInsets.all(15),
-                  child: Row(
-                  children: <Widget>[
-                    Icon(
+                  child: ListTile(
+                    leading: Icon(
                       Icons.call,
                       color: Colors.teal,
                     ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
+                    title: Text(
                       '+254 700001267',
                       style: TextStyle(
                         color: Colors.teal[900],
                       ),
-                    ),
-                  ],
+                  ),
                 ),
                 ),
               ),
@@ -86,4 +81,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
