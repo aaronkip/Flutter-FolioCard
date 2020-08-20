@@ -33,7 +33,9 @@ class MyApp extends StatelessWidget {
               Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical:10.0, horizontal:25),
-                child: Row(
+                child: Padding(
+                  padding: EdgeInsets.all(15),
+                  child: Row(
                   children: <Widget>[
                     Icon(
                       Icons.call,
@@ -49,6 +51,7 @@ class MyApp extends StatelessWidget {
                       ),
                     ),
                   ],
+                ),
                 ),
               ),
               Card(
